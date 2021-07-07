@@ -1,0 +1,48 @@
+@import '~materialize-css/dist/css/materialize.min.css';
+
+body {
+    height: 100vh;
+}
+#root {
+    height: 100%;
+}
+
+.container {
+    /* flex: 1 0 auto!important; */
+    height: 90%;
+}
+
+.black-text {
+    color: #000!important;
+}
+.card-content {
+    padding-bottom: 15px!important;
+}
+.input-field {
+    margin-bottom: 5px!important;
+}
+
+.input-field:first-of-type {
+    margin-top: 30px!important;
+}
+
+.input-field input:focus + label {
+    color: #D1D1D1!important;
+}
+.input-field input  {
+    color: #FFFFFF!important;
+}
+.card-action .btn {
+    margin: 5px 0;
+    margin-right: 10px;
+    transition: all 0.5s ease;
+}
+
+.card-action .btn:hover {
+    background-color: aliceblue!important;
+    color:black;
+}
+
+.nav-wrapper {
+    padding-left: 15px;
+}

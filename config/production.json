@@ -1,0 +1,6 @@
+{
+  "port": 5000,
+  "jwtSecret": "almaz mern",
+  "mongoUri": "mongodb+srv://almazgimaev:a123456a@cluster0.sbmxs.mongodb.net/app?retryWrites=true&w=majority",
+  "baseUrl": "http://localhost:5000"
+}
